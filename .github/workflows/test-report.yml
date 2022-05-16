@@ -7,8 +7,6 @@ on:
       - completed
 
 permissions:
-  contents: write
-  checks: write
   statuses: write
 
 jobs:

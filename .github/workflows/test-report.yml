@@ -9,7 +9,7 @@ on:
 permissions:
   contents: write
   check: write
-
+  statuses: write
 
 jobs:
   report:

@@ -32,6 +32,8 @@ jobs:
         with:
           name: test-results
           path: __tests__/__results__/*.xml
+      - run: |
+          ls __tests__/__results__/
 
       - name: Create test report
         uses: ./

@@ -8,7 +8,7 @@ on:
 
 permissions:
   contents: write
-  actions: write
+  check: write
 
 
 jobs:

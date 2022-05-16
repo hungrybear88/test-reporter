@@ -8,13 +8,11 @@ on:
       - main
   workflow_dispatch:
   
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
 
 permissions:
   contents: write
   actions: write
-  
+
 
 jobs:
   build-test:
